@@ -17,7 +17,7 @@ public class Chapter1
      * 
      * The main method is executed when the program starts.
      */
-    public static void main(String[] args)
+    public static void hello(String[] args77)
     {
         /*
          * A method contains statements.
