@@ -28,6 +28,77 @@ public class Chapter1
          * In Java, a stament ends with a semicolon.
          */
         System.out.println("Hello, world.");
+        
+        /*
+         * A statment contains identifiers.
+         * 
+         * Identfiers may have a combination of:
+         *      - letters
+         *      - numbers (as long as it's not the first character
+         *      - underscores (usually only for constants)
+         *      - dollar signs (rare)
+         *      
+         *      These are valid:
+         */
+        
+        int xyz, f2, X_Y, total$;
+        
+        // this is invalid:
+        //int 4z;
+        
+        /*
+         * Identifiers are case sensitive.
+         * 
+         * These are different:
+         */
+        String crush, CRUSH, CrusH;
+        
+        /*
+         * By convention, constant are all uppercase.  Use an underscore to separate words.
+         */
+        int SPEED_OF_LIGHT = 300000000;  //m/s
+        
+        /*
+         * By convention, most other identifiers use camalcase.  Words start lowercase and subsequent words are capitalized.
+         */
+        String pacificOcean;
+        
+        /*
+         * This is a compile-time error.  
+         * 
+         * Often called syntax errors.
+         */
+        //System.out.pitln("Hello, world.");
+        
+        /*
+         * This is a run-time error.
+         * 
+         * Code compiles and runs, but an exception is generated.  In most cases the program crashes.
+         * 
+         * This is an exception.
+         */
+        //System.out.println(1/0);
+        
+        /*
+         * This is also a run-time error.  The code compiles and runs and no error message occurs, however
+         *      the program doesn't behave as intended.
+         *      
+         *      More specifically, this is a logical error.
+         */
+        System.out.println("Hello, word.");
+        
+        /*
+         * Algorithm - a series of instructions or step to solve a problem.  Must be:
+         *      - unambiguous
+         *      - executable
+         *      - terminating
+         * 
+         */
+        
     }
 }
+
+
+
+
 
