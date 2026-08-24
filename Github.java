@@ -15,5 +15,11 @@ public class Github
      *          
      * Repository (repo) - A folder (of code) that Git is tracking.  It contains all of your project files and
      *          the entire history of changes.
+     *          
+     * Commit - A permanent snapshot of your project at a point in time.  Each commit has a message describing the changes.
+     * 
+     * Commit message - A short description of the changes you write when you make a commit.  Be descriptive but not overly wordy.
+     * 
+     * Push - Upload your commit(s) to GitHub so they are backed up online.
      */
 }
