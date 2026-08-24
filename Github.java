@@ -21,5 +21,18 @@ public class Github
      * Commit message - A short description of the changes you write when you make a commit.  Be descriptive but not overly wordy.
      * 
      * Push - Upload your commit(s) to GitHub so they are backed up online.
+     * 
+     * Clone - Makes a full copy of a GitHub repository to your computer, includes all files and history.  In BlueJ,
+     *          the menu option to clone is "checkout project".
+     *          
+     *
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
      */
 }
