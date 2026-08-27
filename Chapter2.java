@@ -64,7 +64,37 @@ public class Chapter2
         System.out.println("The pen width is: " + penWidth);
         
         
+        /*
+         * Variables store values to be used later.
+         *      - variables require a type (e.g., Turtle, int, boolean, etc.)
+         *      - name (e.g, number, crush, etc.)
+         *      - value (e.g., 20, true, object reference, etc.)
+         */
         
+        int width = 20;   // both declared a new variable of type int and assigned it a value
+        
+        int height;       //  declaring a variable of type int
+        height = 50;      // assigning a value to the height variable
+        
+        /*
+         * Java has several primitive values or data types:
+         *      - int holds an integer value (whole number)
+         *      - double holds a real number (decimal or floating point)
+         *      - boolean holds a true/false value
+         *      
+         *      We will learn others over time:
+         *      - char is a single character
+         */
+        
+        // here is a double
+        double salesTaxRate = 0.075;
+        
+        // boolean
+        boolean isSummer = true;
+        boolean isWinter = false;
+        
+        // char type
+        char letter = 'c';
         
         
         
