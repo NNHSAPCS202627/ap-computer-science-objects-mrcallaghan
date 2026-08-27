@@ -59,6 +59,38 @@ public class Chapter2
         int penWidth = crush.getPenWidth();
         System.out.println("Pen width is " + penWidth); 
         
+        /*
+         * Variables store values to be used later.
+         *      Variables have a type (e.g., int, Turtle, etc.)
+         *                      a name (e.g., width, crush, etc.)
+         *                      and a value (e.g., 20, 3.3, a turtle object reference, etc.)
+         */
+        int width;      // decalaring a variable
+        width = 20;     // assigning a value in the variable
+        
+        
+        System.out.println(width);
+        
+        int xPosition = 50;  // declaring and assigning a value to a variable in one line
+        
+        /*
+         * Java has several primitive data types:
+         *      int hold an integer value
+         *      boolean holds a value true or false
+         *      double holds a real number (floating point, decimal)
+         *      char holds a single character
+         */
+        
+        // here are all the boolean values
+        boolean isSummer = true;
+        boolean isWinter = false;
+        
+        // here is a double
+        double salesTaxRate = 0.0775;
+        
+        // here is a char
+        char letter = 'c';
+        
         
         
         
