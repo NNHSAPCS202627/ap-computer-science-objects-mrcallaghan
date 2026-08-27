@@ -59,11 +59,36 @@ public class Chapter2
          * getPenWidth is an accessor.
          */
         int penWidth = crush.getPenWidth();
-        System.out.println("The pen width is: " + penWidth);
         
         
+        /*
+         * Variables store values to be used later.
+         * 
+         *      Variables have a type (e.g., int, boolean, Turtle, etc.)
+         *      a name (e.g, num, crush, etc.)
+         *      a value (e.g., 20, 3.3, true, an object reference)
+         *      
+         */
         
+        int width;  //      declaring a variable
+        width = 20; //      assigning a value to a variable
         
+        int xPosition = 6;  // declaring and assinging to a variable on one line
+        
+        /*
+         * Java has several primitive data types:
+         *      - int holds an integer value
+         *      - double holds a real number (floating point, decimal)
+         *      - boolean holds a value of true or false
+         *      - char holds a single character
+         *      
+         */
+        boolean isSummer = true;
+        boolean isWinter = false;
+        
+        double salesTaxRate = 0.0775;
+        char letter = 'a';
+
         
         
         
