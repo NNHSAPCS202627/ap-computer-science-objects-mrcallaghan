@@ -1,8 +1,8 @@
 #BlueJ package file
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
+editor.fx.0.height=26
+editor.fx.0.width=158
+editor.fx.0.x=-21333
+editor.fx.0.y=-21333
 objectbench.height=130
 objectbench.width=1256
 package.divider.horizontal=0.6
@@ -56,8 +56,8 @@ target5.name=StringExplorer
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=110
-target5.x=70
-target5.y=150
+target5.x=640
+target5.y=360
 target6.height=50
 target6.name=TurtleDemo
 target6.showInterface=false
