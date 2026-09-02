@@ -5,11 +5,19 @@ public class Warmups
 {
     public static void warmup1()
     {
-        //write solution here
         World myWorld = new World();
         Turtle pumpkin = new Turtle(myWorld);
         pumpkin.forward(25);
 
+    }
+
+    public static void warmup2()
+    {
+        // write solution here
+        String city = new String("Naperville");
+        //String city = “Naperville”;  // literal
+        String bigCity = city.toUpperCase();
+        System.out.println(city + " / " + bigCity);
 
     }
 }
