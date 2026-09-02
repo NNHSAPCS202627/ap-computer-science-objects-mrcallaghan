@@ -1,14 +1,14 @@
-
-/**
- * Write a description of class Warmups here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-// starter code
 public class Warmups
 {
     public static void warmup1()
+    {
+        //write solution here
+        World myWorld = new World();
+        Turtle pumpkin = new Turtle(myWorld);
+        pumpkin.forward(25);
+    }
+
+    public static void warmup2()
     {
         //write solution here
     }
