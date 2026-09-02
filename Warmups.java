@@ -9,6 +9,9 @@ public class Warmups
 {
     public static void warmup1()
     {
+        World myWorld = new World();
+        Turtle pumpkin = new Turtle(myWorld);
+        pumpkin.forward(25);
 
     }
 
