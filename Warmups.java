@@ -1,9 +1,9 @@
-
+import java.awt.Rectangle;
 /**
  * Write a description of class Warmups here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author mrcallaghan
+ * @version 03sept2026
  */
 public class Warmups
 {
@@ -23,4 +23,23 @@ public class Warmups
         System.out.println(city + " / " + bigCity);
 
     }
+
+    public static void warmup3()
+    {
+        Rectangle r1 = new Rectangle(10, 20, 50, 100);
+        Rectangle r2 = new Rectangle(50, 100, 30, 20);
+        boolean doesIntersect = r1.intersects(r2);
+        System.out.print(doesIntersect);
+
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
