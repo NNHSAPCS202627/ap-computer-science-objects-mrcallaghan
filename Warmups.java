@@ -20,4 +20,9 @@ public class Warmups
         System.out.println(city + " / " + bigCity);
 
     }
+    
+    public static void warmup3()
+    {
+        // write solution here
+    }
 }
